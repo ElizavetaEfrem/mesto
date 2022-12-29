@@ -1,0 +1,46 @@
+@import url(../vendor/fonts.css);
+@import url(../vendor/normalize.css);
+@import url(../blocks/body/body.css);
+@import url(../blocks/page/page.css);
+
+/*Шапка сайта*/
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__border/header__border.css);
+@import url(../blocks/header/__logo/header__logo.css);
+
+/*Контент*/
+@import url(../blocks/content/content.css);
+
+/*Профиль*/
+@import url(../blocks/profile/profile.css);
+@import url(../blocks/profile/__avatar/profile__avatar.css);
+@import url(../blocks/profile/__info/profile__info.css);
+@import url(../blocks/profile/__group/profile__group.css);
+@import url(../blocks/profile/__name/profile__name.css);
+@import url(../blocks/profile/__edid-button/profile__edid-button.css);
+@import url(../blocks/profile/__activity/profile__activity.css);
+@import url(../blocks/profile/__add-button/profile__add-button.css);
+
+/*Фото-сетка*/
+@import url(../blocks/photo/photo.css);
+@import url(../blocks/photo/__image/photo__image.css);
+@import url(../blocks/photo/__section/photo__section.css);
+@import url(../blocks/photo/__section-text/photo__section-text.css);
+@import url(../blocks/photo/__title/photo__title.css);
+@import url(../blocks/photo/__heart/photo__heart.css);
+@import url(../blocks/photo/__heart/_active/photo__heart_active.css);
+
+/*Подвал*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__author/footer__author.css);
+
+/*Попап*/
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
+@import url(../blocks/popup/__profile-title/popup__profile-title.css);
+@import url(../blocks/popup/__content/popup__content.css);
+@import url(../blocks/popup/__profile-text/popup__profile-text.css);
+@import url(../blocks/popup/__save-button/popup__save-button.css);
+@import url(../blocks/popup/__close-button/popup__close-button.css);
+@import url(../blocks/popup/__profile-name/popup__profile-name.css);
+@import url(../blocks/popup/__border/popup__border.css);

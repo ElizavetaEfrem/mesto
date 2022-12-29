@@ -1,0 +1,6 @@
+.popup__border {
+    max-width: 358px;
+    border: 1px solid;
+    background-color: #000000;
+    opacity: 0.2;
+}

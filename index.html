@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mestro Russia</title>
+    <link rel="stylesheet" href="page/index.css">
+    <script src="./scripts/index.js" defer></script>
+</head>
+
+<body>
+    <div class="body">
+        <div class="page">
+
+            <!--Шапка-->
+            <header class="header">
+                <img src="./images/header_logo.png" alt="Логотип" class="header__logo">
+                <div class="header__border"></div>
+            </header>
+
+            <!--Контент-->
+            <main class="content">
+
+                <!--Профиль-->
+                <section class="profile">
+                    <img class="profile__avatar" src="./images/profile-avatar.jpg" alt="Аватар">
+                    <div class="profile__info">
+                        <div class="profile__group">
+                            <h1 class="profile__name">Жак-Ив Кусто</h1>
+                            <button class="profile__edid-button"></button>
+                        </div>
+                        <p class="profile__activity">Исследователь океана</p>
+                    </div>
+                    <button class="profile__add-button"></button>
+                </section>
+
+                <!--Фото-сетка-->
+                <section class="photo">
+                    <div class="photo__section">
+                        <img class="photo__image" src="./images/photo-image-karachayevsk.png" alt="Картинка">
+                        <div class="photo__section-text">
+                            <h2 class="photo__title">Карачаевск</h2>
+                            <button class="photo__heart" type="button"></button>
+                        </div>
+                    </div>
+                    <div class="photo__section">
+                        <img class="photo__image" src="./images/photo-image-elbrus.png" alt="Картинка">
+                        <div class="photo__section-text">
+                            <h2 class="photo__title">Гора Эльбрус</h2>
+                            <button class="photo__heart" type="button"></button>
+                        </div>
+                    </div>
+                    <div class="photo__section">
+                        <img class="photo__image" src="./images/photo-image-dombay.png" alt="Картинка">
+                        <div class="photo__section-text">
+                            <h2 class="photo__title">Домбай</h2>
+                            <button class="photo__heart" type="button"></button>
+                        </div>
+                    </div>
+                    <div class="photo__section">
+                        <img class="photo__image" src="./images/photo-image-elbrus.png" alt="Картинка">
+                        <div class="photo__section-text">
+                            <h2 class="photo__title">Гора Эльбрус</h2>
+                            <button class="photo__heart" type="button"></button>
+                        </div>
+                    </div>
+                    <div class="photo__section">
+                        <img class="photo__image" src="./images/photo-image-dombay.png" alt="Картинка">
+                        <div class="photo__section-text">
+                            <h2 class="photo__title">Домбай</h2>
+                            <button class="photo__heart" type="button"></button>
+                        </div>
+                    </div>
+                    <div class="photo__section">
+                        <img class="photo__image" src="./images/photo-image-karachayevsk.png" alt="Картинка">
+                        <div class="photo__section-text">
+                            <h2 class="photo__title">Карачаево-Черкесия</h2>
+                            <button class="photo__heart" type="button"></button>
+                        </div>
+                    </div>
+                </section>
+
+                <!--Попап-->
+                <div class="popup">
+                    <div class="popup__content">
+                        <div class="popup__profile">
+                            <button class="popup__close-button"></button>
+                            <h2 class="popup__profile-title">Редактировать профиль</h2>
+                            <form class="popup__profile-text" name="popup_form">
+                                <input type="text" class="popup__profile-name" value="Жак-Ив Кусто" name="input-name">
+                                <div class="popup__border"></div>
+                                <input type="text" class="popup__profile-name" value="Исследователь океана"
+                                    name="input-аctivity">
+                                <div class="popup__border"></div>
+                                <button class="popup__save-button" type="submit" name="submit"></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+            <!--Подвал-->
+            <footer class="footer">
+                <p class="footer__author">&#169;2020 Mesto Russia</p>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>

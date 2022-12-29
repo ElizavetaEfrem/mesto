@@ -1,0 +1,12 @@
+.photo__section-text {
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 25px 15px 31px 21px;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
