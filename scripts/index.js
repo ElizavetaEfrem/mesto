@@ -8,8 +8,8 @@ const aboutCloseButton = document.querySelector('.popup__close-button');
 const buttonSave = document.querySelector('.popup__save-button');
 const profileName = document.querySelector('.profile__name');
 const profileАctivity = document.querySelector('.profile__activity');
-const inputName = document.querySelector('[name="input-name"]');
-const inputАctivity = document.querySelector('[name="input-аctivity"]');
+const inputName = document.querySelector('.popup__input_type_name');
+const inputАctivity = document.querySelector('.popup__input_type_аctivity');
 const profileInfo = document.querySelector('.popup__profile-text');
 
 aboutButton.addEventListener('click', (Event) => {
