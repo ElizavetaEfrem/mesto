@@ -1,5 +1,5 @@
 .popup__profile-text {
-    padding: 54px 36px 48px 36px;
+    padding: 54px 36px 37px 36px;
     display: flex;
     flex-direction: column;
 }
@@ -7,6 +7,6 @@
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .popup__profile-text {
-        padding: 75px 22px 45px 22px;
+        padding: 75px 22px 25px 22px;
     }
 }
